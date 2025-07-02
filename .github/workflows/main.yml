@@ -37,7 +37,7 @@ jobs:
           
   deploy-dev:
     needs: build
-    uses: carlosfranquinho/pipeline_templates/.github/workflows/demo-deploy.yml@main
+    uses: carlos-franquinho/pipeline_templates/.github/workflows/demo-deploy.yml@main
     with:
       variavel-demo: "Demo dev"
       
